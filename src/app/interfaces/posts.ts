@@ -1,11 +1,13 @@
 export interface Posts {
-    data:string;
+    data:{
     children:Post[]; 
+    }
 }
 
 export interface Post {
-    data:string;
+    data:{
     title:string;
     thumbnail:string;
     permalink:string;
+    }
 }
